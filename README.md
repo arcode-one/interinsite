@@ -32,3 +32,13 @@ npm run lint      # проверка кода
 
 Все CTA и внешние переходы сейчас являются заглушками. Пункты меню прокручивают
 страницу к соответствующим блокам.
+
+## Публикация на GitHub Pages
+
+Workflow `.github/workflows/deploy-pages.yml` автоматически собирает и публикует
+сайт после каждого push в ветку `main`.
+
+В настройках репозитория откройте **Settings → Pages** и выберите
+**Source → GitHub Actions**. Для project-сайта адрес будет:
+
+`https://arcode-one.github.io/interinsite/`
